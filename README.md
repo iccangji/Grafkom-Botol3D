@@ -1,6 +1,7 @@
 # Grafkom-Botol3D
 
 Grafika Komputer: Membuat Objek Botol 3D dengan OpenGL dan C++
+> recommended tools : GLUT + CodeBlocks text-editor :+1:
 
 ![gambar](https://github.com/iccangji/Grafkom-Botol3D/blob/main/capture.png)
  # Kelompok 1
