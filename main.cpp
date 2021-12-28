@@ -736,6 +736,17 @@ void timer(int value)
     glutTimerFunc(refreshMills, timer, 0);
 }
 
+void reshape(GLsizei width, GLsizei height)
+{
+    if (height == 0) height = 1;
+    GLfloat aspect = (GLfloat)width / (GLfloat)height;
+
+    glViewport(0, 0, width, height);
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    gluPerspective(45.0f, aspect, 0.1f, 100.0f);
+}
+
 
 /* Main function: GLUT runs as a console application starting at main() */
 int main(int argc, char** argv)
@@ -749,6 +760,7 @@ int main(int argc, char** argv)
     initGL();                       // Our own OpenGL initialization
     Initialize();
     glutDisplayFunc(display);       // Register callback handler for window re-paint event
+    glutReshapeFunc(reshape);       // Register callback handler for window re-size event
     glutTimerFunc(0, timer, 0);     // First timer call immediately [NEW]
     glutMainLoop();                 // Enter the infinite event-processing loop
     return 0;
