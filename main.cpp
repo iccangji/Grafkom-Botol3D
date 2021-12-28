@@ -705,6 +705,31 @@ void display()
     glutSwapBuffers();
 }
 }
+
+void Initialize() {
+	glClearColor(0, 0, 0, 0);
+	glMatrixMode(GL_PROJECTION);
+	glLoadIdentity();
+
+
+	// Lighting set up
+	glLightModeli(GL_LIGHT_MODEL_LOCAL_VIEWER, GL_TRUE);
+	glEnable(GL_LIGHTING);
+	glEnable(GL_LIGHT0);
+
+	// Set lighting intensity and color
+	GLfloat qaAmbientLight[]	= {0.4, 0.4, 0.4, 1};
+	GLfloat qaDiffuseLight[]	= {0.6, 0.6, 0.6, 1};
+	GLfloat qaSpecularLight[]	= {0.8, 0.8, 0.8, 1};
+	glLightfv(GL_LIGHT0, GL_AMBIENT, qaAmbientLight);
+	glLightfv(GL_LIGHT0, GL_DIFFUSE, qaDiffuseLight);
+	glLightfv(GL_LIGHT0, GL_SPECULAR, qaSpecularLight);
+
+	// Set the light position
+	GLfloat qaLightPosition[]	= {0.0, 1.0, -.5, 1.0};
+	glLightfv(GL_LIGHT0, GL_POSITION, qaLightPosition);
+}
+
 void timer(int value)
 {
     glutPostRedisplay();
@@ -722,6 +747,7 @@ int main(int argc, char** argv)
     glutCreateWindow(title);          // Create window with the given title
     Load_Vertex_Botol();
     initGL();                       // Our own OpenGL initialization
+    Initialize();
     glutDisplayFunc(display);       // Register callback handler for window re-paint event
     glutTimerFunc(0, timer, 0);     // First timer call immediately [NEW]
     glutMainLoop();                 // Enter the infinite event-processing loop
