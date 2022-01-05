@@ -912,3 +912,14 @@
 
 1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\_mingw_print_pop.h
 
+1641377499 source:c:\baru\grafkom-botol3d\main.cpp
+	<windows.h>
+	<gl\gl.h>
+	<gl\glu.h>
+	<gl\glaux.h>
+	<gl\freeglut.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<mmsystem.h>
+
