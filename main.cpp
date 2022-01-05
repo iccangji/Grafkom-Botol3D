@@ -1,4 +1,4 @@
-  #define WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
 
 
 #include <windows.h>
@@ -202,8 +202,8 @@ void display()
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glMatrixMode(GL_MODELVIEW);
     GLfloat qaBlack[] = {0.0, 0.0, 0.0, 1.0};
-	GLfloat qaGreen1[] = {1.0, 0.0, 1.0, 1.0};
-	GLfloat qaGreen2[] = {1.0, 0.7, 0.8, 1.0};
+	GLfloat qaGreen1[] = {1.0, 1.0, 1.0, 1.0};
+	GLfloat qaGreen2[] = {0.0, 0.8, 0.0, 1.0};
 	GLfloat qaWhite[] = {1.0, 1.0, 1.0, 1.0};
 	GLfloat qaLowAmbient[] = {0.2, 0.2, 0.2, 1.0};
 	GLfloat qaFullAmbient[] = {1.0, 1.0, 1.0, 1.0};
@@ -220,8 +220,7 @@ void display()
     glTranslatef(0.0f, 0.0f, -7.0f);
     glRotatef(glrotate, 1.0f, 1.0f, 2.0f);
 
-    glClearColor(1.0,0.7,0.6,0.2);//dark blue
-    glClearColor(0.0,0.0,0.,0.2);//dark blue
+    glClearColor(0.2,0.2,0.2,0.2);//dark blue
 
     int i, loop_i;
     double pi = 3.1415926535;
@@ -702,14 +701,7 @@ void display()
 
     glPopMatrix();
 
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> ae8a16dfa3c00b82c3a2dd7f1fa69a3319c35db7
->>>>>>> 298d2cc96fd7d2e4c4797a75564ef66e9f9d728b
+    glrotate -= 0.15f;
     glutSwapBuffers();
 }
 }
