@@ -701,13 +701,8 @@ void display()
 
     glPopMatrix();
 
-<<<<<<< HEAD
-    glrotate -= 0.15f;
-=======
-
     glrotate -= 0.15f;
 
->>>>>>> 97969fd0eb8c0ea76a8448771b82104259e7759d
     glutSwapBuffers();
 }
 }
