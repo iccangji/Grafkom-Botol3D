@@ -202,8 +202,13 @@ void display()
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glMatrixMode(GL_MODELVIEW);
     GLfloat qaBlack[] = {0.0, 0.0, 0.0, 1.0};
+<<<<<<< HEAD
 	GLfloat qaGreen1[] = {1.0, 0.0, 0.0, 1.0};
 	GLfloat qaGreen2[] = {1.0, 0.7, 0.8, 1.0};
+=======
+	GLfloat qaGreen1[] = {1.0, 0.0, 0.0, 0.0};
+	GLfloat qaGreen2[] = {1.0, 0.8, 0.4, 1.0};
+>>>>>>> c6099a3fb68a1e78ca51924cf0ed364df5dba947
 	GLfloat qaWhite[] = {1.0, 1.0, 1.0, 1.0};
 	GLfloat qaLowAmbient[] = {0.2, 0.2, 0.2, 1.0};
 	GLfloat qaFullAmbient[] = {1.0, 1.0, 1.0, 1.0};
@@ -221,6 +226,7 @@ void display()
     glRotatef(glrotate, 1.0f, 1.0f, 2.0f);
 
     glClearColor(0.1,0.0,0.,0.2);//dark blue
+    glClearColor(1.0,1.0,1.0,1.0);//dark blue
 
     int i, loop_i;
     double pi = 3.1415926535;
