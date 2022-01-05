@@ -221,6 +221,7 @@ void display()
     glRotatef(glrotate, 1.0f, 1.0f, 2.0f);
 
     glClearColor(1.0,0.7,0.6,0.2);//dark blue
+    glClearColor(0.0,0.0,0.,0.2);//dark blue
 
     int i, loop_i;
     double pi = 3.1415926535;
@@ -701,6 +702,10 @@ void display()
 
     glPopMatrix();
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ae8a16dfa3c00b82c3a2dd7f1fa69a3319c35db7
     glutSwapBuffers();
 }
 }
