@@ -11,3 +11,4 @@ Grafika Komputer: Membuat Objek Botol 3D dengan OpenGL dan C++
 - E1E120074	JAKA MESA'I SAPUTRA
 - E1E120088	NURJALNI
 - E1E120104	ZALDA NINGRATI
+perubahan
