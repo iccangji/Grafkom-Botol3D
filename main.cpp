@@ -203,7 +203,7 @@ void display()
     glMatrixMode(GL_MODELVIEW);
     GLfloat qaBlack[] = {0.0, 0.0, 0.0, 1.0};
 	GLfloat qaGreen1[] = {1.0, 1.0, 1.0, 1.0};
-	GLfloat qaGreen2[] = {0.0, 0.8, 0.0, 1.0};
+	GLfloat qaGreen2[] = {0.8, 0.0, 0.0, 1.0};
 	GLfloat qaWhite[] = {1.0, 1.0, 1.0, 1.0};
 	GLfloat qaLowAmbient[] = {0.2, 0.2, 0.2, 1.0};
 	GLfloat qaFullAmbient[] = {1.0, 1.0, 1.0, 1.0};

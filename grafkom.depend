@@ -871,11 +871,11 @@
 	<GL/gl.h>
 	<GL/glu.h>
 
-1426320928 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\freeglut.h
+1641378868 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\freeglut.h
 	"freeglut_std.h"
 	"freeglut_ext.h"
 
-1426320928 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\freeglut_std.h
+1641378868 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\freeglut_std.h
 	<windows.h>
 	<EGL/egl.h>
 	<GLES/gl.h>
@@ -886,7 +886,7 @@
 	<GL/glu.h>
 	<stdlib.h>
 
-1426320928 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\freeglut_ext.h
+1641378868 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\freeglut_ext.h
 	<stdarg.h>
 
 1526093416 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\math.h
@@ -912,15 +912,28 @@
 
 1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\_mingw_print_pop.h
 
-<<<<<<< HEAD
+1641381569 D
+
 1641381569 source:c:\users\user\downloads\grafkom-botol3d\main.cpp
-=======
-<<<<<<< HEAD
+
 1641377499 source:c:\baru\grafkom-botol3d\main.cpp
-=======
+
 1641381576 source:c:\users\lenovo\downloads\tes-grafkom\grafkom-botol3d\main.cpp
->>>>>>> c6099a3fb68a1e78ca51924cf0ed364df5dba947
->>>>>>> ae8a16dfa3c00b82c3a2dd7f1fa69a3319c35db7
+
+1641381576 99a3fb68a1e78ca51924cf0ed364df5dba947
+
+1641381576 a16dfa3c00b82c3a2dd7f1fa69a3319c35db7
+	<windows.h>
+	<gl\gl.h>
+	<gl\glu.h>
+	<gl\glaux.h>
+	<gl\freeglut.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<mmsystem.h>
+
+1641450169 source:d:\my data all\desktop\grafkom-botol3d\main.cpp
 	<windows.h>
 	<gl\gl.h>
 	<gl\glu.h>
